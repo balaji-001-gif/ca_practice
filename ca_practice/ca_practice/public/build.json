@@ -1,0 +1,8 @@
+{
+    "js/ca_practice.bundle.js": [
+        "public/js/ca_practice.js"
+    ],
+    "css/ca_practice.bundle.css": [
+        "public/css/ca_practice.css"
+    ]
+}
