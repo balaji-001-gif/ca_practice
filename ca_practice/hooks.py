@@ -6,8 +6,8 @@ app_description = "CA Practice Management"
 app_email = "your@email.com"
 app_license = "MIT"
 # Include js and css files in desk
-app_include_js = "/assets/ca_practice/js/ca_practice.js"
-app_include_css = "/assets/ca_practice/css/ca_practice.css"
+# app_include_js = "/assets/ca_practice/js/ca_practice.js"
+# app_include_css = "/assets/ca_practice/css/ca_practice.css"
 # Scheduled Tasks
 scheduler_events = {
     "cron": {
