@@ -5,16 +5,16 @@
    "label": "Compliance Report"
   }
  ],
- "content": "[{\"id\":\"_YXQRwKpnN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">CA Practice</span>\",\"col\":12}},{\"id\":\"_8rvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CA Client\",\"col\":3}},{\"id\":\"_9rvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compliance\",\"col\":3}},{\"id\":\"_ArvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CA Engagement\",\"col\":3}},{\"id\":\"_BrvOVTnSN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Reports</span>\",\"col\":12}},{\"id\":\"_CrvOVTnSN\",\"type\":\"card\",\"data\":{\"card_name\":\"Compliance Status\",\"col\":4}},{\"id\":\"_DrvOVTnSN\",\"type\":\"card\",\"data\":{\"card_name\":\"Client Overview\",\"col\":4}}]",
+ "content": "[{\"id\":\"_YXQRwKpnN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">CA Practice</span>\",\"col\":12}},{\"id\":\"_8rvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CA Client\",\"col\":3}},{\"id\":\"_9rvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compliance\",\"col\":3}},{\"id\":\"_ArvOVTnSN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CA Engagement\",\"col\":3}},{\"id\":\"3gYQqVrr6D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Request\",\"col\":3}},{\"id\":\"bUiQfol-K4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Compliance Status\",\"col\":3}},{\"id\":\"zBQzTskT3V\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Client Overview\",\"col\":3}},{\"id\":\"_08t8DKHIR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Client Servies Status\",\"col\":3}},{\"id\":\"_BrvOVTnSN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Reports</span>\",\"col\":12}}]",
  "creation": "2026-01-03 09:37:17.007853",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "briefcase",
+ "icon": "duplicate",
  "idx": 0,
- "indicator_color": "green",
+ "indicator_color": "",
  "is_hidden": 0,
  "label": "CA Practice",
  "links": [
@@ -49,7 +49,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-01-06 15:57:50.903911",
+ "modified": "2026-01-08 17:42:03.151884",
  "modified_by": "Administrator",
  "module": "CA Practice",
  "name": "CA Practice",
@@ -61,6 +61,10 @@
   {
    "label": "Client Overview",
    "number_card_name": "Client Overview"
+  },
+  {
+   "label": "Client Servies Status",
+   "number_card_name": "Client Servies Status"
   }
  ],
  "owner": "Administrator",
@@ -71,19 +75,29 @@
  "sequence_id": 1.0,
  "shortcuts": [
   {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Document Request",
+   "link_to": "Document Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
    "color": "Blue",
    "doc_view": "List",
    "icon": "user",
    "label": "CA Client",
    "link_to": "CA Client",
+   "stats_filter": "[]",
    "type": "DocType"
   },
   {
-   "color": "Orange",
+   "color": "Green",
    "doc_view": "List",
    "icon": "calendar",
    "label": "Compliance",
    "link_to": "Compliance",
+   "stats_filter": "[]",
    "type": "DocType"
   },
   {
@@ -92,22 +106,8 @@
    "icon": "briefcase",
    "label": "CA Engagement",
    "link_to": "CA Engagement",
+   "stats_filter": "[]",
    "type": "DocType"
-  },
-  {
-   "doc_view": "Report Builder",
-   "icon": "bar-chart",
-   "label": "Compliance Status",
-   "link_to": "Compliance Status Report",
-   "report_ref_doctype": "Compliance",
-   "type": "Report"
-  },
-  {
-   "doc_view": "Dashboard",
-   "icon": "dashboard",
-   "label": "CA Dashboard",
-   "link_to": "ca-dashboard",
-   "type": "Page"
   }
  ],
  "title": "CA Practice"
